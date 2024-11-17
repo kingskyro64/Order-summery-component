@@ -1,0 +1,101 @@
+*{
+    margin: 0; 
+    padding: 0;
+} 
+
+body{
+    background: hsl(225, 100%, 94%);  
+    background-image: url(./images/pattern-background-desktop.svg);  
+    background-repeat: no-repeat;
+    display: flex;  
+    justify-content: center;  
+    text-align: center; 
+    font-size: 20px ;
+    font-family: 'Red Hat Display', sans-serif; 
+}  
+
+main{ 
+    margin-top: 3rem;
+    background: hsl(225, 100%, 98%);  
+    max-width: 27rem; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px; 
+    overflow: hidden; 
+    padding-bottom: 20px;
+}  
+
+.hero{
+    display: block; 
+    max-width: 100%;
+    border-top-right-radius: 3px; 
+    border-top-left-radius: 3px;  
+}  
+
+.text{
+    padding: 15px;
+}
+
+.subscription{  
+   border-radius: 5px; 
+   background:hsl(225, 100%, 94%);  
+   text-align: right; 
+   display: flex;   
+   padding-top: 20px; 
+   padding-bottom: 20px; 
+   max-width: 90%;  
+   margin-left: 6px;  
+   margin-top: 5%;
+   padding: 15px;
+}   
+
+.one{
+    margin-left: 20px ;
+}
+
+.two{
+    color: hsl(226, 6%, 41%);
+}
+
+.change{  
+    margin-left: 50px; 
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative; 
+}
+
+.change:hover{   
+    text-decoration: none;
+    display: flex;
+    color: hsl(224, 23%, 55%)
+}
+
+button{ 
+    font-size: 18px;  
+    cursor: pointer;
+    margin-top: 10%;
+    padding-left: 6em; 
+    padding-right: 6rem; 
+    padding-bottom: 5%; 
+    padding-top: 5%; 
+    background: hsl(245, 75%, 52%); 
+    border: none;  
+    border-radius: 3px;  
+    box-shadow:  hsl(228, 4%, 74%) 7px 7px;
+}  
+
+button:hover{
+    background: hsl(224, 23%, 55%) ;
+}  
+
+.cancel{   
+    cursor: pointer; 
+    margin-top: 20px; 
+    font-size: 2rem; 
+    color: hsl(226, 6%, 41%);
+}
+
+.cancel:hover{
+    color: black;
+}
